@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		
+		body{
+			font-family: arial;
+			padding: 10px;
+			background: #f1f1f1;
+		}
+
+		/*Header / Blog Title */
+		.header{
+			background-image: url(safaris.png);
+			padding: 55px;
+			text-align: center;
+			color:  white;
+		}
+
+		.header h1{
+			font-size: 50px;
+		}
+
+		/* Style the navigation bar */
+		.navbar{
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		/* Style yhe navbar links */
+		.navbar a{
+			float: right;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			}
+
+		/* Change color on hover */
+		.navbar a:hover{
+			background-color: #ddd;
+			color: black;
+		}
+
+		/* Create two unequal colums that floats next to each other */
+		/*Left column */
+		.leftcolum{
+			float: left;
+			width: 75%;
+		}
+
+		/*Right column*/
+		.rightcolumn{
+			float: left;
+			width: 25%;
+			background-color: #f1f1f1;
+			padding-left: 20px;
+		}
+
+		/* Fake image */
+		.fakeimg{
+			background-color: #aaa;
+			width: 100%;
+			padding: 20px;
+		}
+
+		/* Add a card effect for article */
+		.card{
+			background-color: white;
+			padding: 20px;
+			margin-top: 20px;
+		}
+		/*  Clear floats after the columns */
+		.row::after{
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		/* Footer */
+		.footer{
+			padding: 20px;
+			text-align: center;
+			background: #ddd;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1> <br></h1>
+		
+		<p>website scyy</p>
+	</div>
+
+	<div class="navbar">
+		<a href="#" style="float: left;">Link</a>
+		<a href="#">ABOUT</a>
+		<a href="Form2gb.html">FROM2GB</a>
+		<a href="index2.html">HOME</a>
+	</div>
+
+	<div class="row">
+		<div class="leftcolum">
+			<div class="card">
+				<h2>SAN DIEGO PARK</h2>
+				<h5> </h5>
+				
+				<img src="safari.webp"width="100%"hight="100px">
+				<p>Taman Safari Kebun Binatang San Diego adalah kebun binatang di kawasan Lembah San Pasqual di San Diego, California, dekat Escondido. Taman ini menampung lebih dari 3.000 hewan yang mewakili lebih dari 300 spesies. Ini juga mencakup kebun raya dengan lebih dari satu juta tanaman yang mewakili lebih dari 3.700 spesies.</p>
+				
+			</div>
+			</div>
+		<div class="rightcolumn">
+			<div class="card">
+				<h2> About me</h2>
+				<img src="safariS.png"width="100%"hight="100px">
+				
+				<p>"The San Diego Zoo Safari Park is an expansive non-profit wildlife sanctuary that is home to more than 3,000 animals representing more than 300 species. Its renowned botanical collection represents 3,500 species and 1.75 million specimens. Over half of the Park’s 1,800 acres (730 hectares) have been set aside as protected native species habitat. It is located 30 miles (48 kilometers) north of downtown San Diego in the San Pasqual Valley near Escondido, California."</p>
+			</div>
+			<div class="card">
+
+				<img src="map.jpg"width="100%"hight="100px"> <p>Peta terperinci dari Taman Safari Kebun Binatang San Diego</p></div>
+				<img src="kijang.webp"width="100%"hight="100px"><p>Semua spesies kijang memiliki tanduk. Pada beberapa spesies mereka hanya ditemukan pada jantan; di tempat lain, baik pria maupun wanita memilikinya.</p></div>
+				<img src="oru.jpg"width="100%"hight="100px"><p>Gorila adalah yang terbesar dari semua primata, hewan yang meliputi monyet, lemur, orangutan, simpanse, dan manusia.</p></div>
+			</div>
+			<div class="card">
+				<h3>Social Media</h3>
+				<p>@San Diego Zoo Park</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<h2>Footer</h2>
+	</div>
+</body>
+</html>
